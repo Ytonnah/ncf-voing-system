@@ -1,0 +1,87 @@
+#div1{
+    height: 13vh;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+#d1{
+    width: 80vw;
+    align-items: center;
+    display: flex; flex-direction: row;
+}
+#d1>img{
+    margin: 50px;
+    width: 100px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#div1 > #d2{
+    width: 15vw;
+
+padding-right:2px ;
+display: flex;
+flex-direction: row;
+gap:6px;
+justify-content: center;
+}
+
+#Hbody{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+#Hbody>div{
+    width: 30vw;
+    height: 70vh;
+    background-color: orange;
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    border: 1px solid red;
+    border-radius: 15px ;
+}
+
+#Hbody >div> img{
+    margin: 20px;
+    width: 200px;
+}
+
+#Hbody >div>div{
+    text-align: center;
+    margin-top: 40px;
+    padding: 30px;
+    background-color: red;
+}
+#Hbody >div>div>input{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+#footer{
+    background-color: cyan;
+    width: 100vw;
+    height: 7vh;
+    text-align: center;
+}
+#footer>h5{
+    padding: 10px;
+}

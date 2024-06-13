@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import './res/setup.css'
+import 'bootstrap/dist/css/bootstrap.css';
+
+//import { Router } from 'express';
+import { Row,Col,Container,Button } from 'react-bootstrap';
+
+import Homepage from './res/Homepage';
+import Dashboard from './res/Dashboard';
+//setup routes in here later
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Homepage></Homepage>
+
     </div>
   );
 }
