@@ -2,6 +2,10 @@ import {  Button } from "react-bootstrap";
 import { Modal } from "react-bootstrap";
 import { useState } from "react";
 
+//import { Router } from "express";
+import { redirect } from "react-router-dom";
+
+
 function enter_election_redirect(){
     //
 }
@@ -93,7 +97,7 @@ export default function Homepage(){
                         <input type="text"></input>
 
                         <h3>Please enter your ID no.</h3>
-                        <input type="number"></input>
+                        <input type="number" maxLength={7}></input>
 
 
                     </Modal.Body>
