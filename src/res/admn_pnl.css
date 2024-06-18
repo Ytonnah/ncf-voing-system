@@ -1,0 +1,22 @@
+table, tr,th,td{
+    border: 1px solid black;
+}
+#theader{
+    text-align: center;
+}
+
+table{
+    align-items: center;
+    width: 75vw;
+}
+
+#pan1{
+    background-color: orange;
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+    
+}
+#pan1>h1{
+    padding: 20px;
+}
